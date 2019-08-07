@@ -14,3 +14,7 @@ The api isnt public yet but example api outputs have been generated so that work
 The repo at time of creation will only contains necessary assets but does not contain substanial code yet. It will be designed from ground up by whoever wishes to help in the community. Thanks for your help.
 
 Twitch Extensions Developer Rig: https://dev.twitch.tv/docs/extensions/rig/
+
+
+### Source
+In the src folder, are some node modules that are a WIP, which will be uploaded as a npm module to provider helper utilities, such as locating images, parsing character data, etc...
