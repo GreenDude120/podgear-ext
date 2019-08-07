@@ -8,5 +8,42 @@
 </head>
 
 <body>
+    <div id="PODArmory">
+        <div id="armoryButton" class="armory-button">
+            <div class="pulse"></div>
+            <!-- preload button image -->
+            <img style="display: none" src="img/button-off.png">
+        </div>
+        <div id="equipment" class="equipment">
+            <div id="loader" class="loader">
+                <img class="loader-img" alt="loading..." width="40" height="40" src="img/loader.gif">
+            </div>
+            <div id="message" class="message"></div>
+            <div id="armory-character">
+                <div id="armory-header"></div>
+                <div id="equipped">
+                    <div id="weaponSet" class="weaponSwitcher weaponSwitcher-active">I</div>
+                    <div id="sweaponSet" class="weaponSwitcher">II</div>
+                    <div id="slot_boots" class="slot tooltip boots"></div>
+                    <div id="slot_helmet" class="slot tooltip helmet"></div>
+                    <div id="slot_body" class="slot tooltip body"></div>
+                    <div id="slot_amulet" class="slot tooltip amulet"></div>
+                    <div id="slot_ring2" class="slot tooltip ring2"></div>
+                    <div id="slot_gloves" class="slot tooltip gloves"></div>
+                    <div id="slot_ring1" class="slot tooltip ring1"></div>
+                    <div id="slot_belt" class="slot tooltip belt"></div>
+                    <div id="slot_sweapon1" class="slot tooltip sweapon1"></div>
+                    <div id="slot_sweapon2" class="slot tooltip sweapon2"></div>
+                    <div id="slot_weapon1" class="slot tooltip weapon1"></div>
+                    <div id="slot_weapon2" class="slot tooltip weapon2"></div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
 </body>
+<script src="https://extension-files.twitch.tv/helper/v1/twitch-ext.min.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/viewer.js" type="text/javascript"></script>
+
 </html>
