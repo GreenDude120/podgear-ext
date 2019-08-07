@@ -10,6 +10,7 @@ twitch.onAuthorized(function(auth) {
     $('#submitChar').show();
 });
 
+/*
     Check whether this channel id already has a name assigned
 */
 function checkStatus() {
