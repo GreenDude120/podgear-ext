@@ -12,3 +12,5 @@ The goal, should you choose to help, is to create a compact armory that can fit 
 The api isnt public yet but example api outputs have been generated so that work on this extension can begin.
 
 The repo at time of creation will only contains necessary assets but does not contain substanial code yet. It will be designed from ground up by whoever wishes to help in the community. Thanks for your help.
+
+Twitch Extensions Developer Rig: https://dev.twitch.tv/docs/extensions/rig/
