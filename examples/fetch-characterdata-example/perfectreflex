@@ -1,0 +1,1079 @@
+{
+  "Name": "PerfectReflex",
+  "IsLadder": true,
+  "IsHardcore": true,
+  "IsDead": false,
+  "Class": "Sorceress",
+  "Stats": {
+    "Level": 16,
+    "Experience": 220688,
+    "Strength": 20,
+    "Dexterity": 25,
+    "Vitality": 75,
+    "Energy": 35,
+    "BaseLife": 192,
+    "Life": 202,
+    "BaseMana": 65,
+    "Mana": 70,
+    "Gold": 13625,
+    "Stashed": 36433
+  },
+  "Bonus": {
+    "Strength": 3,
+    "Dexterity": 5,
+    "Vitality": 0,
+    "Energy": 1,
+    "FireResistance": 19,
+    "MaximumFireResistance": 0,
+    "ColdResistance": 19,
+    "MaximumColdResistance": 0,
+    "LightningResistance": 5,
+    "MaximumLightningResistance": 0,
+    "PoisonResistance": 7,
+    "MaximumPoisonResistance": 0,
+    "MagicFind": 0,
+    "GoldFind": 0,
+    "FasterCastRate": 30,
+    "FasterHitRecovery": 20,
+    "IncreasedAttackSpeed": 0,
+    "CrushingBlow": 0,
+    "OpenWounds": 0,
+    "DeadlyStrike": 0,
+    "DamageReduction": 0,
+    "CooldownReduction": 0,
+    "WeaponSetMain": {
+      "Strength": 0,
+      "Dexterity": 0,
+      "Vitality": 0,
+      "Energy": 0,
+      "FireResistance": 0,
+      "MaximumFireResistance": 0,
+      "ColdResistance": 0,
+      "MaximumColdResistance": 0,
+      "LightningResistance": 0,
+      "MaximumLightningResistance": 0,
+      "PoisonResistance": 0,
+      "MaximumPoisonResistance": 0,
+      "MagicFind": 0,
+      "GoldFind": 0,
+      "FasterCastRate": 0,
+      "FasterHitRecovery": 0,
+      "IncreasedAttackSpeed": 0,
+      "CrushingBlow": 0,
+      "OpenWounds": 0,
+      "DeadlyStrike": 0,
+      "DamageReduction": 0,
+      "CooldownReduction": 0
+    },
+    "WeaponSetOffh": {
+      "Strength": 0,
+      "Dexterity": 0,
+      "Vitality": 0,
+      "Energy": 0,
+      "FireResistance": 0,
+      "MaximumFireResistance": 0,
+      "ColdResistance": 0,
+      "MaximumColdResistance": 0,
+      "LightningResistance": 0,
+      "MaximumLightningResistance": 0,
+      "PoisonResistance": 0,
+      "MaximumPoisonResistance": 0,
+      "MagicFind": 0,
+      "GoldFind": 0,
+      "FasterCastRate": 0,
+      "FasterHitRecovery": 0,
+      "IncreasedAttackSpeed": 0,
+      "CrushingBlow": 0,
+      "OpenWounds": 0,
+      "DeadlyStrike": 0,
+      "DamageReduction": 0,
+      "CooldownReduction": 0
+    }
+  },
+  "SkillTabs": [
+    {
+      "Name": "Fire Skills",
+      "Total": 1,
+      "Skills": [
+        {
+          "ID": 2,
+          "Name": "Warmth",
+          "Level": 1
+        }
+      ]
+    },
+    {
+      "Name": "Lightning Skills",
+      "Total": 16,
+      "Skills": [
+        {
+          "ID": 3,
+          "Name": "Charged Bolt",
+          "Level": 15
+        },
+        {
+          "ID": 8,
+          "Name": "Telekinesis",
+          "Level": 1
+        }
+      ]
+    },
+    {
+      "Name": "Cold Skills",
+      "Total": 0,
+      "Skills": []
+    }
+  ],
+  "MercenaryExperience": 0,
+  "MercenaryType": "Rogue Scout",
+  "MercenaryName": "Aliza",
+  "MercenaryLevel": "1",
+  "Equipped": [
+    {
+      "Quality": "Magic",
+      "ID": "3641410700",
+      "QualityCode": "q_magic",
+      "Title": "Sturdy Leather Armor of Thorns",
+      "Tag": "Leather Armor",
+      "TextTag": "Leather Armor",
+      "Ethereal": "False",
+      "Enhanced": "True",
+      "Defense": "18",
+      "Durability": "12",
+      "DurabilityMaximum": "24",
+      "ItemLevel": "4",
+      "SocketCount": "0",
+      "PropertyList": [
+        "+13% Enhanced Defense",
+        "Attacker Takes Damage of 2"
+      ],
+      "Position": {
+        "x": 3,
+        "y": 0
+      },
+      "Size": {
+        "invheight": 3,
+        "invwidth": 2
+      },
+      "Worn": "body"
+    },
+    {
+      "Quality": "Magic",
+      "ID": "3837494912",
+      "QualityCode": "q_magic",
+      "Title": "Crimson Gloves(L) of Self-Repair",
+      "Tag": "Leather Gloves",
+      "TextTag": "Gloves(L)",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "Defense": "2",
+      "Durability": "12",
+      "DurabilityMaximum": "12",
+      "ItemLevel": "10",
+      "SocketCount": "0",
+      "PropertyList": [
+        "Fire Resist +8%",
+        "Repairs 1 durability in 33 seconds"
+      ],
+      "Position": {
+        "x": 10,
+        "y": 0
+      },
+      "Size": {
+        "invheight": 2,
+        "invwidth": 2
+      },
+      "Worn": "gloves"
+    },
+    {
+      "Quality": "Magic",
+      "ID": "1024270442",
+      "QualityCode": "q_magic",
+      "Title": "ring of the Apprentice",
+      "Tag": "Ring",
+      "TextTag": "ring",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "AlternateGraphics": "1",
+      "ItemLevel": "8",
+      "SocketCount": "0",
+      "PropertyList": [
+        "+10% Faster Cast Rate"
+      ],
+      "Position": {
+        "x": 6,
+        "y": 0
+      },
+      "Size": {
+        "invheight": 1,
+        "invwidth": 1
+      },
+      "Worn": "ring1"
+    },
+    {
+      "Quality": "Magic",
+      "ID": "563651966",
+      "QualityCode": "q_magic",
+      "Title": "ring of the Apprentice",
+      "Tag": "Ring",
+      "TextTag": "ring",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "AlternateGraphics": "3",
+      "ItemLevel": "5",
+      "SocketCount": "0",
+      "PropertyList": [
+        "+10% Faster Cast Rate"
+      ],
+      "Position": {
+        "x": 7,
+        "y": 0
+      },
+      "Size": {
+        "invheight": 1,
+        "invwidth": 1
+      },
+      "Worn": "ring2"
+    },
+    {
+      "Quality": "Rare",
+      "ID": "798968133",
+      "QualityCode": "q_rare",
+      "Title": "Glyph Shank",
+      "Tag": "Boots",
+      "TextTag": "Leather Boots",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "Defense": "2",
+      "Durability": "12",
+      "DurabilityMaximum": "12",
+      "ItemLevel": "8",
+      "SocketCount": "0",
+      "PropertyList": [
+        "+10% Faster Hit Recovery",
+        "+1 to Dexterity",
+        "Heal Stamina Plus 25%",
+        "Repairs 1 durability in 33 seconds"
+      ],
+      "Position": {
+        "x": 9,
+        "y": 0
+      },
+      "Size": {
+        "invheight": 2,
+        "invwidth": 2
+      },
+      "Worn": "boots"
+    },
+    {
+      "Quality": "Rare",
+      "ID": "1043418304",
+      "QualityCode": "q_rare",
+      "Title": "Order Necklace",
+      "Tag": "Amulet",
+      "TextTag": "amulet",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "AlternateGraphics": "1",
+      "ItemLevel": "12",
+      "SocketCount": "0",
+      "PropertyList": [
+        "+10% Faster Cast Rate",
+        "+15 to Attack Rating",
+        "+1 to Strength",
+        "+3 to Mana",
+        "9% Damage Taken Gained as Mana when Hit"
+      ],
+      "Position": {
+        "x": 2,
+        "y": 0
+      },
+      "Size": {
+        "invheight": 1,
+        "invwidth": 1
+      },
+      "Worn": "amulet"
+    },
+    {
+      "Quality": "Rare",
+      "ID": "1404119794",
+      "QualityCode": "q_rare",
+      "Title": "Demon Circlet",
+      "Tag": "Skull Cap",
+      "TextTag": "Skull Cap",
+      "Ethereal": "False",
+      "Enhanced": "True",
+      "Defense": "12",
+      "Durability": "18",
+      "DurabilityMaximum": "18",
+      "ItemLevel": "8",
+      "SocketCount": "0",
+      "PropertyList": [
+        "+10% Faster Hit Recovery",
+        "+29% Enhanced Defense",
+        "+1 to Energy",
+        "Cold Resist +6%",
+        "+1 to Light Radius",
+        "Repairs 1 durability in 33 seconds"
+      ],
+      "Position": {
+        "x": 1,
+        "y": 0
+      },
+      "Size": {
+        "invheight": 2,
+        "invwidth": 2
+      },
+      "Worn": "helmet"
+    },
+    {
+      "Quality": "Rare",
+      "ID": "3462847642",
+      "QualityCode": "q_rare",
+      "Title": "Dire Chain",
+      "Tag": "Sash",
+      "TextTag": "Sash(L)",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "Defense": "2",
+      "Durability": "7",
+      "DurabilityMaximum": "12",
+      "ItemLevel": "8",
+      "SocketCount": "0",
+      "PropertyList": [
+        "+2 to Strength",
+        "+1 to Life",
+        "+9 Maximum Stamina",
+        "Fire Resist +7%",
+        "Poison Resist +7%"
+      ],
+      "Position": {
+        "x": 8,
+        "y": 0
+      },
+      "Size": {
+        "invheight": 1,
+        "invwidth": 2
+      },
+      "Worn": "belt"
+    },
+    {
+      "Quality": "Normal",
+      "ID": "2532086305",
+      "QualityCode": "q_normal",
+      "Title": "Long Staff",
+      "Tag": "Long Staff",
+      "TextTag": "Long Staff",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "DamageMinimum": "2",
+      "DamageMaximum": "8",
+      "Durability": "45",
+      "DurabilityMaximum": "45",
+      "ItemLevel": "12",
+      "SocketCount": "0",
+      "PropertyList": [
+        "+3 to Charged Bolt (Sorceress Only)",
+        "+1 to Lightning (Sorceress Only)"
+      ],
+      "Position": {
+        "x": 4,
+        "y": 0
+      },
+      "Size": {
+        "invheight": 4,
+        "invwidth": 1
+      },
+      "Worn": "weapon1"
+    }
+  ],
+  "Stash": [
+    {
+      "Quality": "Magic",
+      "ID": "3379259845",
+      "QualityCode": "q_magic",
+      "Title": "Brute's Jewel of Freedom",
+      "Tag": "Jewel",
+      "TextTag": "Jewel",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "AlternateGraphics": "1",
+      "ItemLevel": "13",
+      "SocketCount": "0",
+      "PropertyList": [
+        "Melee attacks deal splash damage",
+        "Requirements -15%"
+      ],
+      "Position": {
+        "x": 0,
+        "y": 0
+      },
+      "Size": {
+        "invheight": 1,
+        "invwidth": 1
+      },
+      "Worn": ""
+    }
+  ],
+  "Belt": [
+    {
+      "Quality": "Unknown",
+      "ID": "0",
+      "QualityCode": "",
+      "Title": "ÿc1(ÿc0Light Life Potionÿc1)",
+      "Tag": "ÿc1(ÿc0Light Life Potionÿc1)",
+      "TextTag": "Light Healing Potion",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "ItemLevel": "0",
+      "SocketCount": "0",
+      "PropertyList": [],
+      "Position": {
+        "x": 1,
+        "y": 0
+      },
+      "Size": {
+        "invheight": 1,
+        "invwidth": 1
+      },
+      "Worn": ""
+    },
+    {
+      "Quality": "Unknown",
+      "ID": "0",
+      "QualityCode": "",
+      "Title": "ÿc1(ÿc0Life Potionÿc1)",
+      "Tag": "ÿc1(ÿc0Life Potionÿc1)",
+      "TextTag": "Healing Potion",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "ItemLevel": "0",
+      "SocketCount": "0",
+      "PropertyList": [],
+      "Position": {
+        "x": 5,
+        "y": 0
+      },
+      "Size": {
+        "invheight": 1,
+        "invwidth": 1
+      },
+      "Worn": ""
+    },
+    {
+      "Quality": "Unknown",
+      "ID": "0",
+      "QualityCode": "",
+      "Title": "ÿc3(ÿc0Light Mana Potionÿc3)",
+      "Tag": "ÿc3(ÿc0Light Mana Potionÿc3)",
+      "TextTag": "Light Mana Potion",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "ItemLevel": "0",
+      "SocketCount": "0",
+      "PropertyList": [],
+      "Position": {
+        "x": 3,
+        "y": 0
+      },
+      "Size": {
+        "invheight": 1,
+        "invwidth": 1
+      },
+      "Worn": ""
+    },
+    {
+      "Quality": "Unknown",
+      "ID": "0",
+      "QualityCode": "",
+      "Title": "ÿc3(ÿc0Light Mana Potionÿc3)",
+      "Tag": "ÿc3(ÿc0Light Mana Potionÿc3)",
+      "TextTag": "Light Mana Potion",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "ItemLevel": "0",
+      "SocketCount": "0",
+      "PropertyList": [],
+      "Position": {
+        "x": 7,
+        "y": 0
+      },
+      "Size": {
+        "invheight": 1,
+        "invwidth": 1
+      },
+      "Worn": ""
+    },
+    {
+      "Quality": "Unknown",
+      "ID": "0",
+      "QualityCode": "",
+      "Title": "ÿc1(ÿc0Light Life Potionÿc1)",
+      "Tag": "ÿc1(ÿc0Light Life Potionÿc1)",
+      "TextTag": "Light Healing Potion",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "ItemLevel": "0",
+      "SocketCount": "0",
+      "PropertyList": [],
+      "Position": {
+        "x": 0,
+        "y": 0
+      },
+      "Size": {
+        "invheight": 1,
+        "invwidth": 1
+      },
+      "Worn": ""
+    },
+    {
+      "Quality": "Unknown",
+      "ID": "0",
+      "QualityCode": "",
+      "Title": "ÿc3(ÿc0Light Mana Potionÿc3)",
+      "Tag": "ÿc3(ÿc0Light Mana Potionÿc3)",
+      "TextTag": "Light Mana Potion",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "ItemLevel": "0",
+      "SocketCount": "0",
+      "PropertyList": [],
+      "Position": {
+        "x": 2,
+        "y": 0
+      },
+      "Size": {
+        "invheight": 1,
+        "invwidth": 1
+      },
+      "Worn": ""
+    },
+    {
+      "Quality": "Unknown",
+      "ID": "0",
+      "QualityCode": "",
+      "Title": "ÿc3(ÿc0Light Mana Potionÿc3)",
+      "Tag": "ÿc3(ÿc0Light Mana Potionÿc3)",
+      "TextTag": "Light Mana Potion",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "ItemLevel": "0",
+      "SocketCount": "0",
+      "PropertyList": [],
+      "Position": {
+        "x": 6,
+        "y": 0
+      },
+      "Size": {
+        "invheight": 1,
+        "invwidth": 1
+      },
+      "Worn": ""
+    }
+  ],
+  "Inventory": [
+    {
+      "Quality": "Normal",
+      "ID": "2552355497",
+      "QualityCode": "q_normal",
+      "Title": "ÿc:Tome of Town Portal",
+      "Tag": "ÿc:Tome of Town Portal",
+      "TextTag": "Town Portal Book",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "ItemLevel": "12",
+      "SocketCount": "0",
+      "PropertyList": [],
+      "Position": {
+        "x": 0,
+        "y": 0
+      },
+      "Size": {
+        "invheight": 2,
+        "invwidth": 1
+      },
+      "Worn": ""
+    },
+    {
+      "Quality": "Normal",
+      "ID": "3015065242",
+      "QualityCode": "q_normal",
+      "Title": "ÿc:Tome of Identify",
+      "Tag": "ÿc:Tome of Identify",
+      "TextTag": "Identify Book",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "ItemLevel": "12",
+      "SocketCount": "0",
+      "PropertyList": [],
+      "Position": {
+        "x": 1,
+        "y": 0
+      },
+      "Size": {
+        "invheight": 2,
+        "invwidth": 1
+      },
+      "Worn": ""
+    },
+    {
+      "Quality": "Unknown",
+      "ID": "0",
+      "QualityCode": "",
+      "Title": "ÿc;(ÿc0Rejuvenation Potionÿc;)",
+      "Tag": "ÿc;(ÿc0Rejuvenation Potionÿc;)",
+      "TextTag": "Rejuv Potion",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "ItemLevel": "0",
+      "SocketCount": "0",
+      "PropertyList": [],
+      "Position": {
+        "x": 9,
+        "y": 8
+      },
+      "Size": {
+        "invheight": 1,
+        "invwidth": 1
+      },
+      "Worn": ""
+    },
+    {
+      "Quality": "Unknown",
+      "ID": "0",
+      "QualityCode": "",
+      "Title": "ÿc;(ÿc0Rejuvenation Potionÿc;)",
+      "Tag": "ÿc;(ÿc0Rejuvenation Potionÿc;)",
+      "TextTag": "Rejuv Potion",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "ItemLevel": "0",
+      "SocketCount": "0",
+      "PropertyList": [],
+      "Position": {
+        "x": 9,
+        "y": 7
+      },
+      "Size": {
+        "invheight": 1,
+        "invwidth": 1
+      },
+      "Worn": ""
+    },
+    {
+      "Quality": "Magic",
+      "ID": "778345007",
+      "QualityCode": "q_magic",
+      "Title": "Charm Large of Life",
+      "Tag": "Grand Charm",
+      "TextTag": "Charm Large",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "AlternateGraphics": "0",
+      "ItemLevel": "8",
+      "SocketCount": "0",
+      "PropertyList": [
+        "+9 to Life"
+      ],
+      "Position": {
+        "x": 0,
+        "y": 6
+      },
+      "Size": {
+        "invheight": 3,
+        "invwidth": 1
+      },
+      "Worn": ""
+    },
+    {
+      "Quality": "Magic",
+      "ID": "2552156169",
+      "QualityCode": "q_magic",
+      "Title": "Lapis Charm Small",
+      "Tag": "Small Charm",
+      "TextTag": "Charm Small",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "AlternateGraphics": "1",
+      "ItemLevel": "2",
+      "SocketCount": "0",
+      "PropertyList": [
+        "Cold Resist +6%"
+      ],
+      "Position": {
+        "x": 1,
+        "y": 8
+      },
+      "Size": {
+        "invheight": 1,
+        "invwidth": 1
+      },
+      "Worn": ""
+    },
+    {
+      "Quality": "Magic",
+      "ID": "1516495287",
+      "QualityCode": "q_magic",
+      "Title": "Azure Charm Medium of Dexterity",
+      "Tag": "Large Charm",
+      "TextTag": "Charm Medium",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "AlternateGraphics": "2",
+      "ItemLevel": "13",
+      "SocketCount": "0",
+      "PropertyList": [
+        "+3 to Dexterity",
+        "Cold Resist +7%"
+      ],
+      "Position": {
+        "x": 1,
+        "y": 6
+      },
+      "Size": {
+        "invheight": 2,
+        "invwidth": 1
+      },
+      "Worn": ""
+    },
+    {
+      "Quality": "Unknown",
+      "ID": "0",
+      "QualityCode": "",
+      "Title": "ÿc;(ÿc0Rejuvenation Potionÿc;)",
+      "Tag": "ÿc;(ÿc0Rejuvenation Potionÿc;)",
+      "TextTag": "Rejuv Potion",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "ItemLevel": "0",
+      "SocketCount": "0",
+      "PropertyList": [],
+      "Position": {
+        "x": 9,
+        "y": 6
+      },
+      "Size": {
+        "invheight": 1,
+        "invwidth": 1
+      },
+      "Worn": ""
+    },
+    {
+      "Quality": "Unknown",
+      "ID": "0",
+      "QualityCode": "",
+      "Title": "ÿc;(ÿc0Rejuvenation Potionÿc;)",
+      "Tag": "ÿc;(ÿc0Rejuvenation Potionÿc;)",
+      "TextTag": "Rejuv Potion",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "ItemLevel": "0",
+      "SocketCount": "0",
+      "PropertyList": [],
+      "Position": {
+        "x": 9,
+        "y": 5
+      },
+      "Size": {
+        "invheight": 1,
+        "invwidth": 1
+      },
+      "Worn": ""
+    },
+    {
+      "Quality": "Unknown",
+      "ID": "0",
+      "QualityCode": "",
+      "Title": "ÿc3(ÿc0Light Mana Potionÿc3)",
+      "Tag": "ÿc3(ÿc0Light Mana Potionÿc3)",
+      "TextTag": "Light Mana Potion",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "ItemLevel": "0",
+      "SocketCount": "0",
+      "PropertyList": [],
+      "Position": {
+        "x": 8,
+        "y": 8
+      },
+      "Size": {
+        "invheight": 1,
+        "invwidth": 1
+      },
+      "Worn": ""
+    },
+    {
+      "Quality": "Unknown",
+      "ID": "0",
+      "QualityCode": "",
+      "Title": "ÿc1(ÿc0Light Life Potionÿc1)",
+      "Tag": "ÿc1(ÿc0Light Life Potionÿc1)",
+      "TextTag": "Light Healing Potion",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "ItemLevel": "0",
+      "SocketCount": "0",
+      "PropertyList": [],
+      "Position": {
+        "x": 4,
+        "y": 8
+      },
+      "Size": {
+        "invheight": 1,
+        "invwidth": 1
+      },
+      "Worn": ""
+    },
+    {
+      "Quality": "Unknown",
+      "ID": "0",
+      "QualityCode": "",
+      "Title": "ÿc1(ÿc0Light Life Potionÿc1)",
+      "Tag": "ÿc1(ÿc0Light Life Potionÿc1)",
+      "TextTag": "Light Healing Potion",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "ItemLevel": "0",
+      "SocketCount": "0",
+      "PropertyList": [],
+      "Position": {
+        "x": 4,
+        "y": 7
+      },
+      "Size": {
+        "invheight": 1,
+        "invwidth": 1
+      },
+      "Worn": ""
+    },
+    {
+      "Quality": "Unknown",
+      "ID": "0",
+      "QualityCode": "",
+      "Title": "ÿc;(ÿc0Rejuvenation Potionÿc;)",
+      "Tag": "ÿc;(ÿc0Rejuvenation Potionÿc;)",
+      "TextTag": "Rejuv Potion",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "ItemLevel": "0",
+      "SocketCount": "0",
+      "PropertyList": [],
+      "Position": {
+        "x": 9,
+        "y": 3
+      },
+      "Size": {
+        "invheight": 1,
+        "invwidth": 1
+      },
+      "Worn": ""
+    },
+    {
+      "Quality": "Magic",
+      "ID": "3256488913",
+      "QualityCode": "q_magic",
+      "Title": "Crimson Charm Small of Dexterity",
+      "Tag": "Small Charm",
+      "TextTag": "Charm Small",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "AlternateGraphics": "0",
+      "ItemLevel": "14",
+      "SocketCount": "0",
+      "PropertyList": [
+        "+1 to Dexterity",
+        "Fire Resist +4%"
+      ],
+      "Position": {
+        "x": 0,
+        "y": 5
+      },
+      "Size": {
+        "invheight": 1,
+        "invwidth": 1
+      },
+      "Worn": ""
+    },
+    {
+      "Quality": "Unknown",
+      "ID": "0",
+      "QualityCode": "",
+      "Title": "ÿc3(ÿc0Light Mana Potionÿc3)",
+      "Tag": "ÿc3(ÿc0Light Mana Potionÿc3)",
+      "TextTag": "Light Mana Potion",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "ItemLevel": "0",
+      "SocketCount": "0",
+      "PropertyList": [],
+      "Position": {
+        "x": 5,
+        "y": 8
+      },
+      "Size": {
+        "invheight": 1,
+        "invwidth": 1
+      },
+      "Worn": ""
+    },
+    {
+      "Quality": "Magic",
+      "ID": "3403970279",
+      "QualityCode": "q_magic",
+      "Title": "Tangerine Charm Small",
+      "Tag": "Small Charm",
+      "TextTag": "Charm Small",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "AlternateGraphics": "0",
+      "ItemLevel": "15",
+      "SocketCount": "0",
+      "PropertyList": [
+        "Lightning Resist +5%"
+      ],
+      "Position": {
+        "x": 1,
+        "y": 5
+      },
+      "Size": {
+        "invheight": 1,
+        "invwidth": 1
+      },
+      "Worn": ""
+    },
+    {
+      "Quality": "Unknown",
+      "ID": "0",
+      "QualityCode": "",
+      "Title": "ÿc1(ÿc0Light Life Potionÿc1)",
+      "Tag": "ÿc1(ÿc0Light Life Potionÿc1)",
+      "TextTag": "Light Healing Potion",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "ItemLevel": "0",
+      "SocketCount": "0",
+      "PropertyList": [],
+      "Position": {
+        "x": 9,
+        "y": 4
+      },
+      "Size": {
+        "invheight": 1,
+        "invwidth": 1
+      },
+      "Worn": ""
+    },
+    {
+      "Quality": "Unknown",
+      "ID": "0",
+      "QualityCode": "",
+      "Title": "ÿc3(ÿc0Minor Mana Potionÿc3)",
+      "Tag": "ÿc3(ÿc0Minor Mana Potionÿc3)",
+      "TextTag": "Lesser Mana Potion",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "ItemLevel": "0",
+      "SocketCount": "0",
+      "PropertyList": [],
+      "Position": {
+        "x": 7,
+        "y": 8
+      },
+      "Size": {
+        "invheight": 1,
+        "invwidth": 1
+      },
+      "Worn": ""
+    },
+    {
+      "Quality": "Unknown",
+      "ID": "0",
+      "QualityCode": "",
+      "Title": "ÿc1(ÿc0Light Life Potionÿc1)",
+      "Tag": "ÿc1(ÿc0Light Life Potionÿc1)",
+      "TextTag": "Light Healing Potion",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "ItemLevel": "0",
+      "SocketCount": "0",
+      "PropertyList": [],
+      "Position": {
+        "x": 8,
+        "y": 7
+      },
+      "Size": {
+        "invheight": 1,
+        "invwidth": 1
+      },
+      "Worn": ""
+    },
+    {
+      "Quality": "Normal",
+      "ID": "4209844297",
+      "QualityCode": "q_normal",
+      "Title": "Horadric Cube",
+      "Tag": "Horadric Cube",
+      "TextTag": "Horadric Cube",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "ItemLevel": "13",
+      "SocketCount": "0",
+      "PropertyList": [],
+      "Position": {
+        "x": 2,
+        "y": 7
+      },
+      "Size": {
+        "invheight": 2,
+        "invwidth": 2
+      },
+      "Worn": ""
+    },
+    {
+      "Quality": "Unknown",
+      "ID": "0",
+      "QualityCode": "",
+      "Title": "ÿc1(ÿc0Life Potionÿc1)",
+      "Tag": "ÿc1(ÿc0Life Potionÿc1)",
+      "TextTag": "Healing Potion",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "ItemLevel": "0",
+      "SocketCount": "0",
+      "PropertyList": [],
+      "Position": {
+        "x": 8,
+        "y": 0
+      },
+      "Size": {
+        "invheight": 1,
+        "invwidth": 1
+      },
+      "Worn": ""
+    },
+    {
+      "Quality": "Unknown",
+      "ID": "0",
+      "QualityCode": "",
+      "Title": "ÿc1(ÿc0Light Life Potionÿc1)",
+      "Tag": "ÿc1(ÿc0Light Life Potionÿc1)",
+      "TextTag": "Light Healing Potion",
+      "Ethereal": "False",
+      "Enhanced": "False",
+      "ItemLevel": "0",
+      "SocketCount": "0",
+      "PropertyList": [],
+      "Position": {
+        "x": 8,
+        "y": 6
+      },
+      "Size": {
+        "invheight": 1,
+        "invwidth": 1
+      },
+      "Worn": ""
+    }
+  ],
+  "Cube": [],
+  "MercenaryEquipped": []
+}

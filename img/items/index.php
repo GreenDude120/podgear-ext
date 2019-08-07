@@ -1,0 +1,5 @@
+<?php
+
+header('LOCATION:/'); die();
+
+?>

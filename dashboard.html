@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Broadcaster Configuration</title>
+    <link href="css/normalize.css" type="text/css" rel="stylesheet">
+    <link href="css/dashboard.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="pod-live-conf">
+        <div class="pod-live-conf-header">
+            <div class="pod-live-conf-title">POD Armory</div>
+        </div>
+        <div class="pod-live-conf-body">
+            <div id="message" class="message">
+                <div class="message--text"></div>
+                <div class="message--close">close</div>
+            </div>
+            <div id="loader" class="loader">
+                <img class="loader-img" alt="loading..." width="40" height="40" src="img/loader.gif">
+                <p class="loader-text">loading...</p>
+            </div>
+            <div class="pod-live-conf-body-content">
+                <div class="pod-live-conf-current-name">Live with:<span id="currentAccname" class="pod-live-conf-name-title"></span></div>
+                <hr>
+                <input id="podAccname" class="pod-live-conf-input" type="text" placeholder="Enter your pod account name" val="" />
+                <button id="submitChar" class="pod-live-conf-button">Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://extension-files.twitch.tv/helper/v1/twitch-ext.min.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/dashboard.js" type="text/javascript"></script>
+
+</html>

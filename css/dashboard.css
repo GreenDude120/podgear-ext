@@ -1,0 +1,220 @@
+/* 
+    Armory
+    Dashboard - Live config
+ */
+
+
+/* General
+ */
+
+@font-face {
+    font-family: "AvQest";
+    src: url("fonts/Avqest.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "AvQest";
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+}
+
+
+* {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+hr {
+    background: black;
+    width: 80%;
+    border: 0;
+    margin: 0 auto;
+    height: 1px;
+}
+
+/* LOADER
+*/
+
+.loader {
+    display: none;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 50%;
+    top: 50%;
+    margin-top: -40px;
+    margin-left: -30px;
+    background: rgba(0, 0, 0, 0.35);
+    border: 1px solid #000;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.loader-img {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+    top: 10px;
+}
+
+.loader-text {
+    position: absolute;
+    top: 55px;
+
+}
+
+/*
+    Message
+*/
+.message {
+    display: none;
+    box-sizing: border-box;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    height: auto;
+    padding: 6px 8px;
+    padding-right: 60px;
+    background: #e1f1f6;
+    color: #565656;
+    border: 1px solid #49afd9;
+    border-radius: .125rem;
+    line-height: .75rem;
+}
+
+.message--close {
+    display:block;
+    padding: 2px 4px;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+.message--state-error {
+    background: #f5dbd9;
+    color: #565656;
+    border: 1px solid #ebafa6;
+}
+
+.message--state-success {
+    background: #dff0d0;
+    color: #565656;
+    border: 1px solid #60b515;
+}
+
+
+
+/*
+    Container
+*/
+
+.pod-live-conf {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.75);
+    border: 1px solid #000;
+    box-shadow: 0 0 8px 2px #000;
+}
+.pod-live-conf-header {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.pod-live-conf-title {
+    position: relative;
+    text-align: center;
+    color: rgba(187, 149, 94, 1);
+    font-family: 'AvQest';
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0 0 1px rgba(19, 19, 19, 1), 0 2px 3px rgba(0, 0, 0, 1);
+    background: rgba(0, 0, 0, 0.65);
+    padding: 5px 0;
+    box-sizing: border-box;
+}
+
+
+.pod-live-conf-body {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 120px;
+    padding: 0 0 20px 0;
+}
+
+.pod-live-conf-body-content {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.pod-live-conf-current-name {
+    position: relative;
+    font-family: 'AvQest';
+    font-size: 18px;
+    padding: 10px 0;
+    width: 80%;
+    margin: 0 auto;
+    text-shadow: 0 0 1px rgba(19, 19, 19, 1), 0 2px 3px rgba(0, 0, 0, 1);
+}
+
+.pod-live-conf-name-title {
+    font-family: 'AvQest';
+    font-size: 18px;
+    color: rgba(187, 149, 94, 1);
+    font-weight: bold;
+    padding: 0 0 0 10px;
+    text-shadow: 0 0 1px rgba(19, 19, 19, 1), 0 2px 3px rgba(0, 0, 0, 1);
+}
+
+.pod-live-conf-input {
+    box-sizing: border-box;
+    position: relative;
+    font-family:  Helvetica, Arial, Verdana;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: block;
+    height: 35px;
+    padding: 4px 8px;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    box-shadow: inset 0 2px 4px 1px rgba(0,0,0,.65);
+}
+
+.pod-live-conf-button {
+    display: none;
+    position:relative;
+    display: block;
+    margin-left: 10%;
+    margin-top: 15px;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 1px;
+    box-shadow: 0 0 8px 1px rgba(0,0,0,.45);
+}
